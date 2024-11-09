@@ -1,0 +1,67 @@
+.emailnaraine {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.emailnaraine h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.emailnaraine form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.emailnaraine form button {
+  min-width: 50%;
+  max-width: 50%;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.emailnaraine form input,
+.emailnaraine form textarea {
+  min-width: 50%;
+  max-width: 50%;
+  margin-bottom: .5rem;
+  padding: 1rem;
+  border: none;
+  border: 1px solid gainsboro;
+  text-transform: lowercase !important;
+}
+
+.emailnaraine form textarea {
+  min-height: 10rem;
+  max-height: 10rem;
+  overflow: hidden;
+}
+
+.form1 {
+  background: linear-gradient(90deg, transparent, whitesmoke), url(../img/02.jpg) no-repeat 90% 50%;
+  background-size: cover;
+  min-width: 50%;
+  max-width: 50%;
+  min-height: 90vh;
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 50%;
+  background-color: whitesmoke;
+  min-height: 90vh;
+}

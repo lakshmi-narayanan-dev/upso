@@ -1,0 +1,21 @@
+.naraine-01 .swiper-slide {
+  border: 1px solid black;
+  min-height: 20rem;
+  max-height: 20rem;
+  opacity: .5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.naraine-01 {
+  margin: 5rem auto;
+  max-width: 90%;
+}
+
+.naraine-01 .swiper-slide-active {
+  background-color: #000;
+  opacity: 1;
+  font-weight: 900;
+  color: white !important;
+}
